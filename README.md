@@ -21,7 +21,7 @@ observed in human brains, leading to the proposal of novel artificial neuron des
 We first perform the vectorized symbolic regression on the normalized dataset. The relevant information regarding these 20 datasets, and the regression results are shown in Table 5.
 ![image](https://github.com/NewT123-WM/Task_based_neurons/blob/main/table5.png)
 
-Second, we test the superiority of task-based neurons relative to linear ones. We use the same 20 datasets in the last subsection: 10 for regression and 10 for classification. We don't need to repeat the process of the vectorized symbolic regression. Instead, we directly use polynomials learned in Table 5. The training and test sets are divided according to the ratio of $8:2$. For *TN*  and *LN*, the data division and the batch size are the same. We select 5 different network structures for each dataset for a comprehensive comparison. When designing the network structures of *TN*, we ensure that the number of parameters of *TN* is fewer than the *LN* to show the superiority of task-based neurons in efficiency. Each dataset is tested 10 times for reliability of results. The MSE and classification accuracy are presented in the form of $\mathrm{mean}~(\mathrm{std})$ in Table 6.
+Second, we test the superiority of task-based neurons relative to linear ones. We use the same 20 datasets in the last subsection: 10 for regression and 10 for classification. We don't need to repeat the process of the vectorized symbolic regression. Instead, we directly use the polynomials learned in Table 5. The training and test sets are divided according to the ratio of $8:2$. For *TN*  and *LN*, the data division and the batch size are the same. We select 5 different network structures for each dataset for a comprehensive comparison. When designing the network structures of *TN*, we ensure that the number of parameters of *TN* is fewer than the *LN* to show the superiority of task-based neurons in efficiency. Each dataset is tested 10 times for reliability of results. The MSE and classification accuracy are presented in the form of $\mathrm{mean}~(\mathrm{std})$ in Table 6.
 
 ![image](https://github.com/NewT123-WM/Task_based_neurons/blob/main/table6.png)
 
@@ -62,7 +62,18 @@ After getting the neuron expression, you can assign the corresponding symbolic e
 
 # Citation
 
-If you have any questions about this work, feel free to contract us: wangmeng22@stu.hit.edu.cn
+If you find this work useful, please cite it in your publications.
+
+```bibtex
+@article{fan2024no,
+  title={No One-Size-Fits-All Neurons: Task-based Neurons for Artificial Neural Networks},
+  author={Fan, Feng-Lei and Wang, Meng and Dong, Hang-Cheng and Ma, Jianwei and Zeng, Tieyong},
+  journal={arXiv preprint arXiv:2405.02369},
+  year={2024}
+}
+```
+
+If you have any questions about this work, feel free to contact us: wangmeng22@stu.hit.edu.cn
 
 # License
 Licensed under the [MIT license](https://github.com/NewT123-WM/Task_based_neurons/blob/main/LICENSE). 
