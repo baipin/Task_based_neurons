@@ -14,11 +14,11 @@ class GPUEfficientNeurons(nn.Module):
         self.out_features = out_features
         self.neuron = neuron
 
-        # 1. 预先解析字符串（只在初始化时执行一次！）
+        # Pre-parse the string
         self.exponents = self._parse_neuron_expr(neuron)
         self.number = len(self.exponents)
 
-        # 2. 用 ModuleList 管理参数，PyTorch 官方标准，完美支持 .to(device) 批量移动
+        #  ModuleList used to admin paras
         self.weights = nn.ParameterList([
             Parameter(torch.Tensor(out_features, in_features)) for _ in range(self.number)
         ])
@@ -31,20 +31,19 @@ class GPUEfficientNeurons(nn.Module):
         self.reset_parameters()
 
     def _parse_neuron_expr(self, neuron_str):
-        """在初始化时一次性解析好所有的幂次，转成纯数字"""
         temp = neuron_str.replace(' ', '')
         items = re.split(r'\+|-', temp)
         exponents = []
         for s in items:
             if 'x' in s:
                 if '**' in s:
-                    # 提取 x**5 里的 5
+                    # e.g. get 5 from x**5
                     exp = int(s.split('**')[1])
                 else:
-                    # 只有 x，幂次是 1
+                    # e.g. get 1 from x
                     exp = 1
                 exponents.append(exp)
-        return exponents  # 比如返回 [5, 3, 2, 1]
+        return exponents  # e.g. return [5, 3, 2, 1]
 
     def reset_parameters(self) -> None:
         for w in self.weights:
@@ -55,11 +54,9 @@ class GPUEfficientNeurons(nn.Module):
             init.uniform_(self.bias, -bound, bound)
 
     def forward(self, x):
-        # 3. 纯张量运算，没有任何 exec, eval 和字符串操作！
-        # 完美支持 GPU 并行、Cuda Graph、AMP 混合精度和自动求导
+        # Pure tensor operations
         su = 0
         for exponent, weight in zip(self.exponents, self.weights):
-            # 依据预先存好的数字幂次进行快速矩阵计算
             if exponent == 1:
                 su += F.linear(x, weight, bias=None)
             else:

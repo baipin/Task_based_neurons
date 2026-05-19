@@ -43,7 +43,9 @@ def main(number, data_name):
                 del tem[0:index - 1]
                 temp[n] = ''.join(tem)
         ex = ''.join(temp)
-        return expr, eval(ex)
+        pred = eval(ex)
+        pred = np.nan_to_num(pred, nan=0.0, posinf=1e6, neginf=-1e6)
+        return expr, pred
 
     operations = (
         {"func": operator.add, "arg_count": 2, "format_str": "({} + {})"},
@@ -96,7 +98,9 @@ def main(number, data_name):
         tournament_members = [
             randint(0, POP_SIZE - 1) for _ in range(TOURNAMENT_SIZE)]
 
-        member_fitness = [(fitne[i], popu[i]) for i in tournament_members]
+        member_fitness = [(fitne[i], popu[i]) for i in tournament_members if np.isfinite(fitne[i])]
+        if len(member_fitness) == 0:
+            return popu[randint(0, len(popu) - 1)]
         return min(member_fitness, key=lambda x: x[0])[1]
 
     XOVER_PCT = 0.3
@@ -122,7 +126,11 @@ def main(number, data_name):
         if m == 0:
             return float("inf")
         else:
+            if not np.all(np.isfinite(pred)):
+                return float("inf")
             mse = np.mean(np.square(pred - y_label))
+            if not np.isfinite(mse):
+                return float("inf")
             return mse
 
     population = [random_prog() for _ in range(POP_SIZE)]
@@ -133,8 +141,12 @@ def main(number, data_name):
     for gen in range(MAX_GENERATIONS):
         fitness = []
         for prog in population:
-            func, prediction = evaluate(simp(prog), X_train)
-            score = compute_fitness(func, prediction)
+            try:
+                func, prediction = evaluate(simp(prog), X_train)
+                score = compute_fitness(func, prediction)
+            except Exception:
+                func = ''
+                score = float("inf")
             fitness.append(score)
 
             if score < global_best:
@@ -151,10 +163,12 @@ def main(number, data_name):
                     box[score] = prog
         # =======================================================
 
+        finite_fitness = np.array([v for v in fitness if np.isfinite(v)])
+        median_score = np.median(finite_fitness) if finite_fitness.size else float("inf")
         print("Generation: {:d}\nBest Score: {:.4f}\nMedian score: {:.4f}\nBest program: {:s}\n" \
-              .format(gen, global_best, np.median(np.array(fitness)), best_prog))
+              .format(gen, global_best, median_score, best_prog))
         file.write("Generation: {:d}\nBest Score: {:.4f}\nMedian score: {:.4f}\nBest program: {:s}\n\n" \
-                   .format(gen, global_best, np.median(np.array(fitness)), best_prog))
+                   .format(gen, global_best, median_score, best_prog))
 
         # ========================================================
 
