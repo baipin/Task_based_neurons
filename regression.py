@@ -17,7 +17,7 @@ def main(number, data_name):
 
     file = open('non_' + data_name + '_' + number + ".txt", 'w')
 
-    with h5py.File(data_name + '.h5', 'r') as f:
+    with h5py.File('data/' + data_name + '.h5', 'r') as f:
         X_train = np.array(f[number]['x_train']).T
         y_label = np.array(f[number]['y_train']).T
 
