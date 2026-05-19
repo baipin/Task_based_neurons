@@ -1,0 +1,403 @@
+Device: cpu
+Generation: 0
+Best Score: 1941531904.0260
+Median score: 2961026560.0260
+Best program: 14@x**2 + 14@x + 30
+
+Generation: 1
+Best Score: 1659005184.0130
+Median score: 2960798720.0250
+Best program: 20@x**2
+
+Generation: 2
+Best Score: 1386370176.0230
+Median score: 2960759552.0050
+Best program: 30@x**2
+
+Generation: 3
+Best Score: 1344295168.0270
+Median score: 2960759552.0080
+Best program: 36@x**2 + 32@x - 4
+
+Generation: 4
+Best Score: 1344294016.0260
+Median score: 2960777984.0080
+Best program: 36@x**2 + 36@x
+
+Generation: 5
+Best Score: 1344294016.0260
+Median score: 2960798720.0170
+Best program: 36@x**2 + 36@x
+
+Generation: 6
+Best Score: 1344294016.0260
+Median score: 2961026560.0240
+Best program: 36@x**2 + 36@x
+
+Generation: 7
+Best Score: 1344294016.0260
+Median score: 2960959232.0110
+Best program: 36@x**2 + 36@x
+
+Generation: 8
+Best Score: 1344294016.0260
+Median score: 2960798720.0120
+Best program: 36@x**2 + 36@x
+
+Generation: 9
+Best Score: 1344294016.0260
+Median score: 2960759552.0190
+Best program: 36@x**2 + 36@x
+
+Generation: 10
+Best Score: 1344294016.0260
+Median score: 2960777984.0050
+Best program: 36@x**2 + 36@x
+
+Generation: 11
+Best Score: 1344294016.0260
+Median score: 2960777984.0080
+Best program: 36@x**2 + 36@x
+
+Generation: 12
+Best Score: 1344294016.0260
+Median score: 2960959232.0090
+Best program: 36@x**2 + 36@x
+
+Generation: 13
+Best Score: 1344294016.0260
+Median score: 2960759552.0135
+Best program: 36@x**2 + 36@x
+
+Generation: 14
+Best Score: 1344294016.0260
+Median score: 2960823680.0140
+Best program: 36@x**2 + 36@x
+
+Generation: 15
+Best Score: 1344294016.0260
+Median score: 2960849408.0180
+Best program: 36@x**2 + 36@x
+
+Generation: 16
+Best Score: 1344294016.0260
+Median score: 2960978432.0080
+Best program: 36@x**2 + 36@x
+
+Generation: 17
+Best Score: 1344294016.0260
+Median score: 2960773632.0150
+Best program: 36@x**2 + 36@x
+
+Generation: 18
+Best Score: 1344294016.0260
+Median score: 2960759552.0210
+Best program: 36@x**2 + 36@x
+
+Generation: 19
+Best Score: 1344294016.0260
+Median score: 2960845056.0185
+Best program: 36@x**2 + 36@x
+
+Generation: 20
+Best Score: 1344294016.0260
+Median score: 2960779392.0165
+Best program: 36@x**2 + 36@x
+
+Generation: 21
+Best Score: 1344294016.0260
+Median score: 2960835712.0150
+Best program: 36@x**2 + 36@x
+
+Generation: 22
+Best Score: 1344294016.0260
+Median score: 2960759552.0185
+Best program: 36@x**2 + 36@x
+
+Generation: 23
+Best Score: 1344294016.0260
+Median score: 2960926208.0150
+Best program: 36@x**2 + 36@x
+
+Generation: 24
+Best Score: 1344294016.0260
+Median score: 2960859392.0090
+Best program: 36@x**2 + 36@x
+
+Generation: 25
+Best Score: 1344294016.0260
+Median score: 2960759552.0170
+Best program: 36@x**2 + 36@x
+
+Generation: 26
+Best Score: 1344294016.0260
+Median score: 2960777984.0090
+Best program: 36@x**2 + 36@x
+
+Generation: 27
+Best Score: 1344294016.0260
+Median score: 2961168128.0180
+Best program: 36@x**2 + 36@x
+
+Generation: 28
+Best Score: 1343823744.0240
+Median score: 2960823680.0175
+Best program: 36@x**2
+
+Generation: 29
+Best Score: 1343823744.0240
+Median score: 2960777984.0190
+Best program: 36@x**2
+
+Generation: 30
+Best Score: 1343823744.0240
+Median score: 2961226752.0110
+Best program: 36@x**2
+
+Generation: 31
+Best Score: 1343823744.0240
+Median score: 2960883840.0190
+Best program: 36@x**2
+
+Generation: 32
+Best Score: 1343823744.0240
+Median score: 2960777984.0050
+Best program: 36@x**2
+
+Generation: 33
+Best Score: 1343823744.0240
+Median score: 2960759552.0100
+Best program: 36@x**2
+
+Generation: 34
+Best Score: 1343823744.0240
+Median score: 2960759552.0130
+Best program: 36@x**2
+
+Generation: 35
+Best Score: 1343823744.0240
+Median score: 2960777984.0080
+Best program: 36@x**2
+
+Generation: 36
+Best Score: 1343807616.0220
+Median score: 2960826368.0070
+Best program: 36@x**2 + x
+
+Generation: 37
+Best Score: 1343807616.0220
+Median score: 2961099008.0225
+Best program: 36@x**2 + x
+
+Generation: 38
+Best Score: 1343807616.0220
+Median score: 2960777984.0270
+Best program: 36@x**2 + x
+
+Generation: 39
+Best Score: 1343807616.0220
+Median score: 2960859392.0100
+Best program: 36@x**2 + x
+
+Generation: 40
+Best Score: 1343807616.0220
+Median score: 2960978432.0230
+Best program: 36@x**2 + x
+
+Generation: 41
+Best Score: 1343807616.0220
+Median score: 2960777984.0135
+Best program: 36@x**2 + x
+
+Generation: 42
+Best Score: 1343788544.0290
+Median score: 2960726272.0200
+Best program: 36@x**2 + 18@x
+
+Generation: 43
+Best Score: 1343788544.0290
+Median score: 2960742912.0090
+Best program: 36@x**2 + 18@x
+
+Generation: 44
+Best Score: 1343788544.0290
+Median score: 2960870400.0170
+Best program: 36@x**2 + 18@x
+
+Generation: 45
+Best Score: 1343788544.0290
+Median score: 2960897536.0140
+Best program: 36@x**2 + 18@x
+
+Generation: 46
+Best Score: 1343788544.0290
+Median score: 2960926208.0140
+Best program: 36@x**2 + 18@x
+
+Generation: 47
+Best Score: 1343788544.0290
+Median score: 2960973568.0180
+Best program: 36@x**2 + 18@x
+
+Generation: 48
+Best Score: 1343788544.0290
+Median score: 2960845056.0155
+Best program: 36@x**2 + 18@x
+
+Generation: 49
+Best Score: 1343788544.0290
+Median score: 2960944896.0240
+Best program: 36@x**2 + 18@x
+
+Generation: 50
+Best Score: 1343788544.0290
+Median score: 2960759552.0050
+Best program: 36@x**2 + 18@x
+
+Generation: 51
+Best Score: 1343751936.0270
+Median score: 2960777984.0070
+Best program: 36@x**2 + 6@x
+
+Generation: 52
+Best Score: 1343751936.0260
+Median score: 2960820992.0170
+Best program: 36@x**2 + 6@x
+
+Generation: 53
+Best Score: 1343751936.0260
+Median score: 2960826368.0100
+Best program: 36@x**2 + 6@x
+
+Generation: 54
+Best Score: 1343751936.0260
+Median score: 2961087872.0260
+Best program: 36@x**2 + 6@x
+
+Generation: 55
+Best Score: 1343751936.0260
+Median score: 2960978432.0155
+Best program: 36@x**2 + 6@x
+
+Generation: 56
+Best Score: 1343751936.0260
+Median score: 2960777984.0130
+Best program: 36@x**2 + 6@x
+
+Generation: 57
+Best Score: 1343751936.0260
+Median score: 2960810496.0160
+Best program: 36@x**2 + 6@x
+
+Generation: 58
+Best Score: 1343751936.0260
+Median score: 2960759552.0050
+Best program: 36@x**2 + 6@x
+
+Generation: 59
+Best Score: 1343751936.0260
+Median score: 2961174656.0165
+Best program: 36@x**2 + 6@x
+
+Generation: 60
+Best Score: 1343751936.0260
+Median score: 2960820992.0100
+Best program: 36@x**2 + 6@x
+
+Generation: 61
+Best Score: 1343751936.0260
+Median score: 2960895360.0255
+Best program: 36@x**2 + 6@x
+
+Generation: 62
+Best Score: 1343751936.0260
+Median score: 2960820992.0110
+Best program: 36@x**2 + 6@x
+
+Generation: 63
+Best Score: 1343737344.0290
+Median score: 2960926208.0160
+Best program: 36@x**2 + 10@x
+
+Generation: 64
+Best Score: 1343737344.0290
+Median score: 2960989184.0210
+Best program: 36@x**2 + 10@x
+
+Generation: 65
+Best Score: 1343737344.0290
+Median score: 2960809856.0100
+Best program: 36@x**2 + 10@x
+
+Generation: 66
+Best Score: 1343737344.0290
+Median score: 2960798720.0170
+Best program: 36@x**2 + 10@x
+
+Generation: 67
+Best Score: 1343737344.0290
+Median score: 2960859392.0110
+Best program: 36@x**2 + 10@x
+
+Generation: 68
+Best Score: 1343737344.0290
+Median score: 2960862208.0190
+Best program: 36@x**2 + 10@x
+
+Generation: 69
+Best Score: 1343737344.0290
+Median score: 2960759552.0130
+Best program: 36@x**2 + 10@x
+
+Generation: 70
+Best Score: 1343663616.0290
+Median score: 2960870400.0080
+Best program: 36@x**2 + 4
+
+Generation: 71
+Best Score: 1343663616.0290
+Median score: 2960768768.0155
+Best program: 36@x**2 + 4
+
+Generation: 72
+Best Score: 1343423744.0290
+Median score: 2960820992.0170
+Best program: 36@x**2 + 10
+
+Generation: 73
+Best Score: 1343423744.0290
+Median score: 2960919424.0170
+Best program: 36@x**2 + 10
+
+Generation: 74
+Best Score: 1343303680.0270
+Median score: 2960845056.0090
+Best program: 36@x**2 + 13
+
+Generation: 75
+Best Score: 1343303680.0270
+Median score: 2960942720.0125
+Best program: 36@x**2 + 13
+
+Generation: 76
+Best Score: 1343303680.0270
+Median score: 2960820992.0200
+Best program: 36@x**2 + 13
+
+Generation: 77
+Best Score: 1343303680.0270
+Median score: 2960978560.0130
+Best program: 36@x**2 + 13
+
+Generation: 78
+Best Score: 1343241472.0300
+Median score: 2960926208.0150
+Best program: 36@x**2 - x + 15
+
+Generation: 79
+Best Score: 1343241472.0300
+Median score: 2960777984.0120
+Best program: 36@x**2 - x + 15
+
+Best score: 1343241472.0300002
+Best program: 36@x**2 - x + 15

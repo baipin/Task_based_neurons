@@ -1,0 +1,403 @@
+Device: cpu
+Generation: 0
+Best Score: 1221567753224192.0000
+Median score: 1775577195347968.0000
+Best program: 7@x**4 - x
+
+Generation: 1
+Best Score: 1102093372882944.0000
+Median score: 1775576792694784.0000
+Best program: 14@x**4 - 14@x**3 - x
+
+Generation: 2
+Best Score: 1102093372882944.0000
+Median score: 1775576792694784.0000
+Best program: 14@x**4 - 14@x**3 - x
+
+Generation: 3
+Best Score: 1102093372882944.0000
+Median score: 1775577061130240.0000
+Best program: 14@x**4 - 14@x**3 - x
+
+Generation: 4
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 5
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 6
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 7
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 8
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 9
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 10
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 11
+Best Score: 1091886785757184.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4
+
+Generation: 12
+Best Score: 1091886785757184.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4
+
+Generation: 13
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 14
+Best Score: 1091886785757184.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4
+
+Generation: 15
+Best Score: 1091886785757184.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4
+
+Generation: 16
+Best Score: 1091886785757184.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4
+
+Generation: 17
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 18
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 19
+Best Score: 1091886785757184.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4
+
+Generation: 20
+Best Score: 1091761090854912.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 21
+Best Score: 1091761090854912.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 22
+Best Score: 1091761090854912.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 23
+Best Score: 1091761090854912.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 24
+Best Score: 1091761090854912.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 25
+Best Score: 1091761090854912.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 26
+Best Score: 1091761090854912.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 27
+Best Score: 1091761090854912.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4 - 8@x**3
+
+Generation: 28
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 29
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 30
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 31
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 32
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 33
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 34
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 35
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 36
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 37
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 38
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 39
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 40
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 41
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 42
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 43
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 44
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 45
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 46
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 47
+Best Score: 1091613115809792.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 48
+Best Score: 1091613115809792.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 49
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 50
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 51
+Best Score: 1091613115809792.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 52
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 53
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 54
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 55
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 56
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 57
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 58
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 59
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 60
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 61
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 62
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 63
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 64
+Best Score: 1091613115809792.0000
+Median score: 1775576926912512.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 65
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 66
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 67
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 68
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 69
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 70
+Best Score: 1091613115809792.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 71
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 72
+Best Score: 1091613115809792.0000
+Median score: 1775576859803648.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 73
+Best Score: 1091613115809792.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 4@x**3 + 12@x**2 - 4@x
+
+Generation: 74
+Best Score: 1091240258961408.0000
+Median score: 1775577195347968.0000
+Best program: 12@x**4 - 3@x**3 + 39@x**2 + 36@x
+
+Generation: 75
+Best Score: 1091240258961408.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 3@x**3 + 39@x**2 + 36@x
+
+Generation: 76
+Best Score: 1091240258961408.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 3@x**3 + 39@x**2 + 36@x
+
+Generation: 77
+Best Score: 1091240258961408.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 3@x**3 + 39@x**2 + 36@x
+
+Generation: 78
+Best Score: 1091240258961408.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 3@x**3 + 39@x**2 + 36@x
+
+Generation: 79
+Best Score: 1091240258961408.0000
+Median score: 1775576792694784.0000
+Best program: 12@x**4 - 3@x**3 + 39@x**2 + 36@x
+
+Best score: 1091240258961408.0
+Best program: 12@x**4 - 3@x**3 + 39@x**2 + 36@x
